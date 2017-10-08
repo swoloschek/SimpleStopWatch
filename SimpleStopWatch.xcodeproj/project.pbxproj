@@ -1,0 +1,828 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA6AC3B01F8AD5E800740130 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6AC3AF1F8AD5E800740130 /* AppDelegate.swift */; };
+		AA6AC3B21F8AD5E800740130 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6AC3B11F8AD5E800740130 /* ViewController.swift */; };
+		AA6AC3B51F8AD5E800740130 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA6AC3B31F8AD5E800740130 /* Main.storyboard */; };
+		AA6AC3B71F8AD5E800740130 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA6AC3B61F8AD5E800740130 /* Assets.xcassets */; };
+		AA6AC3BA1F8AD5E800740130 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA6AC3B81F8AD5E800740130 /* LaunchScreen.storyboard */; };
+		AA6AC3C51F8AD5E800740130 /* SimpleStopWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6AC3C41F8AD5E800740130 /* SimpleStopWatchTests.swift */; };
+		AA6AC3D01F8AD5E800740130 /* SimpleStopWatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6AC3CF1F8AD5E800740130 /* SimpleStopWatchUITests.swift */; };
+		AA6AC3D51F8AD5E800740130 /* SimpleStopWatch WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = AA6AC3D41F8AD5E800740130 /* SimpleStopWatch WatchKit App.app */; };
+		AA6AC3DB1F8AD5E800740130 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA6AC3D91F8AD5E800740130 /* Interface.storyboard */; };
+		AA6AC3DD1F8AD5E800740130 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA6AC3DC1F8AD5E800740130 /* Assets.xcassets */; };
+		AA6AC3E41F8AD5E900740130 /* SimpleStopWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AA6AC3E31F8AD5E900740130 /* SimpleStopWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AA6AC3E91F8AD5E900740130 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6AC3E81F8AD5E900740130 /* InterfaceController.swift */; };
+		AA6AC3EB1F8AD5E900740130 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6AC3EA1F8AD5E900740130 /* ExtensionDelegate.swift */; };
+		AA6AC3ED1F8AD5E900740130 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6AC3EC1F8AD5E900740130 /* NotificationController.swift */; };
+		AA6AC3EF1F8AD5E900740130 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA6AC3EE1F8AD5E900740130 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA6AC3C11F8AD5E800740130 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA6AC3A41F8AD5E800740130 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA6AC3AB1F8AD5E800740130;
+			remoteInfo = SimpleStopWatch;
+		};
+		AA6AC3CC1F8AD5E800740130 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA6AC3A41F8AD5E800740130 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA6AC3AB1F8AD5E800740130;
+			remoteInfo = SimpleStopWatch;
+		};
+		AA6AC3D61F8AD5E800740130 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA6AC3A41F8AD5E800740130 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA6AC3D31F8AD5E800740130;
+			remoteInfo = "SimpleStopWatch WatchKit App";
+		};
+		AA6AC3E51F8AD5E900740130 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA6AC3A41F8AD5E800740130 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA6AC3E21F8AD5E900740130;
+			remoteInfo = "SimpleStopWatch WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AA6AC3F71F8AD5E900740130 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AA6AC3E41F8AD5E900740130 /* SimpleStopWatch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA6AC3FB1F8AD5E900740130 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				AA6AC3D51F8AD5E800740130 /* SimpleStopWatch WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AA6AC3AC1F8AD5E800740130 /* SimpleStopWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleStopWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA6AC3AF1F8AD5E800740130 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA6AC3B11F8AD5E800740130 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AA6AC3B41F8AD5E800740130 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA6AC3B61F8AD5E800740130 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA6AC3B91F8AD5E800740130 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA6AC3BB1F8AD5E800740130 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA6AC3C01F8AD5E800740130 /* SimpleStopWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleStopWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA6AC3C41F8AD5E800740130 /* SimpleStopWatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleStopWatchTests.swift; sourceTree = "<group>"; };
+		AA6AC3C61F8AD5E800740130 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA6AC3CB1F8AD5E800740130 /* SimpleStopWatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleStopWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA6AC3CF1F8AD5E800740130 /* SimpleStopWatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleStopWatchUITests.swift; sourceTree = "<group>"; };
+		AA6AC3D11F8AD5E800740130 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA6AC3D41F8AD5E800740130 /* SimpleStopWatch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SimpleStopWatch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA6AC3DA1F8AD5E800740130 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		AA6AC3DC1F8AD5E800740130 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA6AC3DE1F8AD5E800740130 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA6AC3E31F8AD5E900740130 /* SimpleStopWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SimpleStopWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA6AC3E81F8AD5E900740130 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		AA6AC3EA1F8AD5E900740130 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		AA6AC3EC1F8AD5E900740130 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		AA6AC3EE1F8AD5E900740130 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA6AC3F01F8AD5E900740130 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA6AC3F11F8AD5E900740130 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA6AC3A91F8AD5E800740130 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA6AC3BD1F8AD5E800740130 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA6AC3C81F8AD5E800740130 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA6AC3E01F8AD5E900740130 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA6AC3A31F8AD5E800740130 = {
+			isa = PBXGroup;
+			children = (
+				AA6AC3AE1F8AD5E800740130 /* SimpleStopWatch */,
+				AA6AC3C31F8AD5E800740130 /* SimpleStopWatchTests */,
+				AA6AC3CE1F8AD5E800740130 /* SimpleStopWatchUITests */,
+				AA6AC3D81F8AD5E800740130 /* SimpleStopWatch WatchKit App */,
+				AA6AC3E71F8AD5E900740130 /* SimpleStopWatch WatchKit Extension */,
+				AA6AC3AD1F8AD5E800740130 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA6AC3AD1F8AD5E800740130 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA6AC3AC1F8AD5E800740130 /* SimpleStopWatch.app */,
+				AA6AC3C01F8AD5E800740130 /* SimpleStopWatchTests.xctest */,
+				AA6AC3CB1F8AD5E800740130 /* SimpleStopWatchUITests.xctest */,
+				AA6AC3D41F8AD5E800740130 /* SimpleStopWatch WatchKit App.app */,
+				AA6AC3E31F8AD5E900740130 /* SimpleStopWatch WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA6AC3AE1F8AD5E800740130 /* SimpleStopWatch */ = {
+			isa = PBXGroup;
+			children = (
+				AA6AC3AF1F8AD5E800740130 /* AppDelegate.swift */,
+				AA6AC3B11F8AD5E800740130 /* ViewController.swift */,
+				AA6AC3B31F8AD5E800740130 /* Main.storyboard */,
+				AA6AC3B61F8AD5E800740130 /* Assets.xcassets */,
+				AA6AC3B81F8AD5E800740130 /* LaunchScreen.storyboard */,
+				AA6AC3BB1F8AD5E800740130 /* Info.plist */,
+			);
+			path = SimpleStopWatch;
+			sourceTree = "<group>";
+		};
+		AA6AC3C31F8AD5E800740130 /* SimpleStopWatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA6AC3C41F8AD5E800740130 /* SimpleStopWatchTests.swift */,
+				AA6AC3C61F8AD5E800740130 /* Info.plist */,
+			);
+			path = SimpleStopWatchTests;
+			sourceTree = "<group>";
+		};
+		AA6AC3CE1F8AD5E800740130 /* SimpleStopWatchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA6AC3CF1F8AD5E800740130 /* SimpleStopWatchUITests.swift */,
+				AA6AC3D11F8AD5E800740130 /* Info.plist */,
+			);
+			path = SimpleStopWatchUITests;
+			sourceTree = "<group>";
+		};
+		AA6AC3D81F8AD5E800740130 /* SimpleStopWatch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				AA6AC3D91F8AD5E800740130 /* Interface.storyboard */,
+				AA6AC3DC1F8AD5E800740130 /* Assets.xcassets */,
+				AA6AC3DE1F8AD5E800740130 /* Info.plist */,
+			);
+			path = "SimpleStopWatch WatchKit App";
+			sourceTree = "<group>";
+		};
+		AA6AC3E71F8AD5E900740130 /* SimpleStopWatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AA6AC3E81F8AD5E900740130 /* InterfaceController.swift */,
+				AA6AC3EA1F8AD5E900740130 /* ExtensionDelegate.swift */,
+				AA6AC3EC1F8AD5E900740130 /* NotificationController.swift */,
+				AA6AC3EE1F8AD5E900740130 /* Assets.xcassets */,
+				AA6AC3F01F8AD5E900740130 /* Info.plist */,
+				AA6AC3F11F8AD5E900740130 /* PushNotificationPayload.apns */,
+			);
+			path = "SimpleStopWatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA6AC3AB1F8AD5E800740130 /* SimpleStopWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA6AC3FC1F8AD5E900740130 /* Build configuration list for PBXNativeTarget "SimpleStopWatch" */;
+			buildPhases = (
+				AA6AC3A81F8AD5E800740130 /* Sources */,
+				AA6AC3A91F8AD5E800740130 /* Frameworks */,
+				AA6AC3AA1F8AD5E800740130 /* Resources */,
+				AA6AC3FB1F8AD5E900740130 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA6AC3D71F8AD5E800740130 /* PBXTargetDependency */,
+			);
+			name = SimpleStopWatch;
+			productName = SimpleStopWatch;
+			productReference = AA6AC3AC1F8AD5E800740130 /* SimpleStopWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA6AC3BF1F8AD5E800740130 /* SimpleStopWatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA6AC3FF1F8AD5E900740130 /* Build configuration list for PBXNativeTarget "SimpleStopWatchTests" */;
+			buildPhases = (
+				AA6AC3BC1F8AD5E800740130 /* Sources */,
+				AA6AC3BD1F8AD5E800740130 /* Frameworks */,
+				AA6AC3BE1F8AD5E800740130 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA6AC3C21F8AD5E800740130 /* PBXTargetDependency */,
+			);
+			name = SimpleStopWatchTests;
+			productName = SimpleStopWatchTests;
+			productReference = AA6AC3C01F8AD5E800740130 /* SimpleStopWatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA6AC3CA1F8AD5E800740130 /* SimpleStopWatchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA6AC4021F8AD5E900740130 /* Build configuration list for PBXNativeTarget "SimpleStopWatchUITests" */;
+			buildPhases = (
+				AA6AC3C71F8AD5E800740130 /* Sources */,
+				AA6AC3C81F8AD5E800740130 /* Frameworks */,
+				AA6AC3C91F8AD5E800740130 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA6AC3CD1F8AD5E800740130 /* PBXTargetDependency */,
+			);
+			name = SimpleStopWatchUITests;
+			productName = SimpleStopWatchUITests;
+			productReference = AA6AC3CB1F8AD5E800740130 /* SimpleStopWatchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		AA6AC3D31F8AD5E800740130 /* SimpleStopWatch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA6AC3F81F8AD5E900740130 /* Build configuration list for PBXNativeTarget "SimpleStopWatch WatchKit App" */;
+			buildPhases = (
+				AA6AC3D21F8AD5E800740130 /* Resources */,
+				AA6AC3F71F8AD5E900740130 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA6AC3E61F8AD5E900740130 /* PBXTargetDependency */,
+			);
+			name = "SimpleStopWatch WatchKit App";
+			productName = "SimpleStopWatch WatchKit App";
+			productReference = AA6AC3D41F8AD5E800740130 /* SimpleStopWatch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		AA6AC3E21F8AD5E900740130 /* SimpleStopWatch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA6AC3F41F8AD5E900740130 /* Build configuration list for PBXNativeTarget "SimpleStopWatch WatchKit Extension" */;
+			buildPhases = (
+				AA6AC3DF1F8AD5E900740130 /* Sources */,
+				AA6AC3E01F8AD5E900740130 /* Frameworks */,
+				AA6AC3E11F8AD5E900740130 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SimpleStopWatch WatchKit Extension";
+			productName = "SimpleStopWatch WatchKit Extension";
+			productReference = AA6AC3E31F8AD5E900740130 /* SimpleStopWatch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA6AC3A41F8AD5E800740130 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Steve Woloschek";
+				TargetAttributes = {
+					AA6AC3AB1F8AD5E800740130 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					AA6AC3BF1F8AD5E800740130 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AA6AC3AB1F8AD5E800740130;
+					};
+					AA6AC3CA1F8AD5E800740130 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AA6AC3AB1F8AD5E800740130;
+					};
+					AA6AC3D31F8AD5E800740130 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					AA6AC3E21F8AD5E900740130 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AA6AC3A71F8AD5E800740130 /* Build configuration list for PBXProject "SimpleStopWatch" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA6AC3A31F8AD5E800740130;
+			productRefGroup = AA6AC3AD1F8AD5E800740130 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA6AC3AB1F8AD5E800740130 /* SimpleStopWatch */,
+				AA6AC3BF1F8AD5E800740130 /* SimpleStopWatchTests */,
+				AA6AC3CA1F8AD5E800740130 /* SimpleStopWatchUITests */,
+				AA6AC3D31F8AD5E800740130 /* SimpleStopWatch WatchKit App */,
+				AA6AC3E21F8AD5E900740130 /* SimpleStopWatch WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA6AC3AA1F8AD5E800740130 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA6AC3BA1F8AD5E800740130 /* LaunchScreen.storyboard in Resources */,
+				AA6AC3B71F8AD5E800740130 /* Assets.xcassets in Resources */,
+				AA6AC3B51F8AD5E800740130 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA6AC3BE1F8AD5E800740130 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA6AC3C91F8AD5E800740130 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA6AC3D21F8AD5E800740130 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA6AC3DD1F8AD5E800740130 /* Assets.xcassets in Resources */,
+				AA6AC3DB1F8AD5E800740130 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA6AC3E11F8AD5E900740130 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA6AC3EF1F8AD5E900740130 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA6AC3A81F8AD5E800740130 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA6AC3B21F8AD5E800740130 /* ViewController.swift in Sources */,
+				AA6AC3B01F8AD5E800740130 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA6AC3BC1F8AD5E800740130 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA6AC3C51F8AD5E800740130 /* SimpleStopWatchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA6AC3C71F8AD5E800740130 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA6AC3D01F8AD5E800740130 /* SimpleStopWatchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA6AC3DF1F8AD5E900740130 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA6AC3ED1F8AD5E900740130 /* NotificationController.swift in Sources */,
+				AA6AC3EB1F8AD5E900740130 /* ExtensionDelegate.swift in Sources */,
+				AA6AC3E91F8AD5E900740130 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA6AC3C21F8AD5E800740130 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA6AC3AB1F8AD5E800740130 /* SimpleStopWatch */;
+			targetProxy = AA6AC3C11F8AD5E800740130 /* PBXContainerItemProxy */;
+		};
+		AA6AC3CD1F8AD5E800740130 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA6AC3AB1F8AD5E800740130 /* SimpleStopWatch */;
+			targetProxy = AA6AC3CC1F8AD5E800740130 /* PBXContainerItemProxy */;
+		};
+		AA6AC3D71F8AD5E800740130 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA6AC3D31F8AD5E800740130 /* SimpleStopWatch WatchKit App */;
+			targetProxy = AA6AC3D61F8AD5E800740130 /* PBXContainerItemProxy */;
+		};
+		AA6AC3E61F8AD5E900740130 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA6AC3E21F8AD5E900740130 /* SimpleStopWatch WatchKit Extension */;
+			targetProxy = AA6AC3E51F8AD5E900740130 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA6AC3B31F8AD5E800740130 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA6AC3B41F8AD5E800740130 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA6AC3B81F8AD5E800740130 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA6AC3B91F8AD5E800740130 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AA6AC3D91F8AD5E800740130 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA6AC3DA1F8AD5E800740130 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA6AC3F21F8AD5E900740130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA6AC3F31F8AD5E900740130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA6AC3F51F8AD5E900740130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SimpleStopWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zbuda.SimpleStopWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Debug;
+		};
+		AA6AC3F61F8AD5E900740130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SimpleStopWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zbuda.SimpleStopWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Release;
+		};
+		AA6AC3F91F8AD5E900740130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = SimpleStopWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "SimpleStopWatch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = zbuda.SimpleStopWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Debug;
+		};
+		AA6AC3FA1F8AD5E900740130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = SimpleStopWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "SimpleStopWatch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = zbuda.SimpleStopWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Release;
+		};
+		AA6AC3FD1F8AD5E900740130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SimpleStopWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zbuda.SimpleStopWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA6AC3FE1F8AD5E900740130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SimpleStopWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zbuda.SimpleStopWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA6AC4001F8AD5E900740130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SimpleStopWatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zbuda.SimpleStopWatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleStopWatch.app/SimpleStopWatch";
+			};
+			name = Debug;
+		};
+		AA6AC4011F8AD5E900740130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SimpleStopWatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zbuda.SimpleStopWatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleStopWatch.app/SimpleStopWatch";
+			};
+			name = Release;
+		};
+		AA6AC4031F8AD5E900740130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SimpleStopWatchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zbuda.SimpleStopWatchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimpleStopWatch;
+			};
+			name = Debug;
+		};
+		AA6AC4041F8AD5E900740130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SimpleStopWatchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zbuda.SimpleStopWatchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimpleStopWatch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA6AC3A71F8AD5E800740130 /* Build configuration list for PBXProject "SimpleStopWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA6AC3F21F8AD5E900740130 /* Debug */,
+				AA6AC3F31F8AD5E900740130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA6AC3F41F8AD5E900740130 /* Build configuration list for PBXNativeTarget "SimpleStopWatch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA6AC3F51F8AD5E900740130 /* Debug */,
+				AA6AC3F61F8AD5E900740130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA6AC3F81F8AD5E900740130 /* Build configuration list for PBXNativeTarget "SimpleStopWatch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA6AC3F91F8AD5E900740130 /* Debug */,
+				AA6AC3FA1F8AD5E900740130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA6AC3FC1F8AD5E900740130 /* Build configuration list for PBXNativeTarget "SimpleStopWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA6AC3FD1F8AD5E900740130 /* Debug */,
+				AA6AC3FE1F8AD5E900740130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA6AC3FF1F8AD5E900740130 /* Build configuration list for PBXNativeTarget "SimpleStopWatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA6AC4001F8AD5E900740130 /* Debug */,
+				AA6AC4011F8AD5E900740130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA6AC4021F8AD5E900740130 /* Build configuration list for PBXNativeTarget "SimpleStopWatchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA6AC4031F8AD5E900740130 /* Debug */,
+				AA6AC4041F8AD5E900740130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA6AC3A41F8AD5E800740130 /* Project object */;
+}
